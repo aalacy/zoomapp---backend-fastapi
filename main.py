@@ -79,7 +79,7 @@ async def root():
     file_info = {
         'meeting_id': '123',
         'file_extension': 'm4a',
-        'download_url': 'https://us06web.zoom.us/rec/webhook_download/EvLSMMouL3IiFrcMhvDWq2Xtt8cqQKvAdgEkBCnAp4Q0GwciA19xZOb5rp8G14WxhCgzGJdh_Rwu8uA.OivrXmF4iXoYPp-9/we_EQoVxRby9hSwy8olAFE8fSqgmIvnC9xSsl5_CIHFRfnUimcFp9R4fjire68Y.Vy5whumddLh7lFqM'
+        'download_url': 'https://us06web.zoom.us/rec/webho'
     }
     access_token = jwt_token()
     download_recording(file_info, access_token)
